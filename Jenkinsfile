@@ -1,21 +1,21 @@
 pipeline {
     agent any
     stages {
-        stage(""){
+        stage("checkout code"){
         steps{
             git brand: 'main', url: 'https://github.com/Radomaster99/JenkinsTDI'
         }
         }
-         stage(""){
+         stage("setup .Net code"){
             
         }
-         stage(""){
+         stage("Restore dependencies"){
             
         }
-         stage(""){
+         stage("Build"){
             
         }
-         stage(""){
+         stage("Run Tests"){
             
         }
     }
