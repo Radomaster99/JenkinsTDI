@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage("checkout code") {
         steps {
-            git brand: 'main', url: 'https://github.com/Radomaster99/JenkinsTDI'
+            git branch: 'main', url: 'https://github.com/Radomaster99/JenkinsTDI'
         }
         }
          stage("setup .Net core") {
